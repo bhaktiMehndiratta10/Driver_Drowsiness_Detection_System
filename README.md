@@ -11,6 +11,7 @@ The system uses facial landmark detection to locate the eyes and calculates the 
 2. If EAR drops below a threshold (0.25) for a set number of frames (30), an alert is sounded.
 3. The system continuously streams from a webcam and displays the video feed with eye contours and warnings.
 
+
 ⚙️ TECHNOLOGIES USED  : 
 
 1. OpenCV – for video streaming and image processing.
@@ -18,6 +19,15 @@ The system uses facial landmark detection to locate the eyes and calculates the 
 3. Scipy – to calculate Euclidean distance.
 4. Pygame (mixer) – to play an audio alert.
 5. Imutils – for easy OpenCV operations and facial utilities.
+
+
+🚀 FEATURES :
+
+1. 🔍 Real-time face and eye tracking using a webcam
+2. 📏 Eye Aspect Ratio (EAR) based drowsiness detection
+3. 📢 Audio alert when eyes remain closed beyond a safe threshold
+4. 🧠 68-point facial landmark detection via dlib
+5. 🖼️ Visual feedback (drawn contours on eyes)
 
 
 

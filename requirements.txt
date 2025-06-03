@@ -1,0 +1,33 @@
+# ---------------------------
+# Driver Drowsiness Detection - Python Dependencies
+# ---------------------------
+# This file defines all the Python packages required to run the drowsiness detection system.
+# Versions are pinned to ensure compatibility and reproducibility across environments.
+
+# ---------------------------
+# Core Computer Vision
+# ---------------------------
+
+# OpenCV: Essential for accessing the webcam feed and performing image processing tasks
+opencv-python==4.9.0.80
+
+# dlib: Contains the face detector and 68-point shape predictor model used for facial landmark detection
+# Note: Requires CMake and compatible C++ build tools if installing from source
+dlib==19.24.2
+
+# imutils: Utility functions to simplify OpenCV operations like resizing and rotation
+imutils==0.5.4
+
+# ---------------------------
+# Mathematical Computation
+# ---------------------------
+
+# SciPy: Provides the spatial distance calculation used to compute the Eye Aspect Ratio (EAR)
+scipy==1.13.0
+
+# ---------------------------
+# Audio Alert
+# ---------------------------
+
+# pygame: Handles sound playback (used to play an alert sound when drowsiness is detected)
+pygame==2.5.2

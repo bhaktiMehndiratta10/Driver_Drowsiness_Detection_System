@@ -1,4 +1,4 @@
-# Drowsiness_Detection_System_Using_OpenCV
+# Driver_Drowsiness_Detection_System_Using_OpenCV
 # Computer_Vision_Project
 
 This project implements a real-time driver drowsiness detection system using OpenCV, Dlib, and Scipy. It monitors eye aspect ratio (EAR) to detect signs of drowsiness and triggers an alarm if the driver appears sleepy for a sustained period.
